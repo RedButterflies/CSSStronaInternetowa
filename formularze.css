@@ -1,0 +1,274 @@
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  
+}
+
+label[for="nazwisko"] {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#69714F;
+  
+}
+label[for="wiek"] {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color:#4984D6;
+}
+label[for="panstwo"] {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#4984D6;
+}
+label[for="email"] {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#69714F;
+  
+  
+}
+input[type="email"] {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1pt solid #FFF300;
+  background-color: #4984D6;
+   color:#FFF300;
+   font-style:italic;
+  
+}
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1pt solid #FFF300;
+  background-color: #4984D6;
+   color:#FFF300;
+   font-style:italic;
+   
+  
+}
+select {
+ width: 77%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1pt solid #FFF300;
+  background-color: #4984D6; 
+  color:#FFF300;
+  font-weight: bold;
+}
+input[type="number"] {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1pt solid #FFF300;
+  background-color: #4984D6;
+   color:#FFF300;
+   
+   
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="submit"]
+{
+	background-color: #FFF300;
+	color: #FF0D00;
+	display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+input[type="reset"]{
+	background-color: #00FFF8;
+	color: #C100FF;
+	display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+label[for="php"]{
+	background-color:#A496EC;
+	color: #ffffff;
+}
+label[for="java"]{
+	background-color:#B277B4;
+	color: #ffffff;
+}
+label[for="cpp"]{
+	background-color:#FF96F2;
+	color: #ffffff;
+}
+label[for="eurocard"]{
+	background-color:#779EB4;
+	color: #FFFA96;
+}
+label[for="visa"]{
+	background-color:#94D0D5;
+	color: #FFFA96;
+}
+
+label[for="przelew_bankowy"]{
+	background-color:#94A3D5;
+	color: #FFFA96;
+}
+
+#nav {
+display: inline-block;
+overflow: hidden;
+font-family: calibri, tahoma;
+margin: 0 auto;
+border-radius: 10px;
+}
+ul#nav li {
+border: 1px solid #d5d5d5;
+list-style-type: none;
+display: inline-block;
+background: #d5d5d5;
+margin-left: 3px;
+border-radius: 10px;
+
+}
+ul#nav li:hover {
+border: 1px solid #d5d5d5;
+list-style-type: none;
+display: inline-block;
+background: #d5d5d5;
+margin-left: 3px;
+border-radius: 10px;
+}
+ul#nav li a {
+display : block;
+padding : 4pt;
+text-decoration : none;
+}
+ul#nav li li a {
+width: 160px;
+}
+ul#nav li li:hover {
+background: #d5d5d5;
+}
+ul#nav li ul {
+overflow: hidden;
+display: none;
+}
+ul#nav li:hover ul {
+position: absolute;
+background: #d5d5d5;
+padding: 0;
+display: block;
+width: 177px;
+}
+
+
+@media screen and (max-width: 720px) {
+ nav a { width: 48%;
+ padding: 10px 0;
+ font-size:140%;
+ }
+}
+@media screen and (min-width: 481px) and (max-width: 720px) {
+ body { font-size: 13px; }
+ h1 { font-size: 23px; }
+ h2 { font-size: 18px; }
+}
+
+@media screen and (max-width: 481px) {
+body { font-size: 12px; }
+h1 { font-size: 22px; }
+h2 { font-size: 16px; }
+nav a { width: 100%; }
+}
+@media screen and (orientation: landscape) and (max-width: 720px) {
+ nav a { width: 48%;
+ padding: 10px 0;
+ font-size:140%;
+ }
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+  label[for="nazwisko"],
+  label[for="wiek"],
+  label[for="panstwo"],
+  label[for="email"] {
+    width: 100%;
+    text-align: left;
+    margin-right: 0;
+  }
+  input[type="email"],
+  input[type="text"],
+  select,
+  input[type="number"],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="submit"],
+  input[type="reset"],
+  label[for="php"],
+  label[for="java"],
+  label[for="cpp"],
+  label[for="eurocard"],
+  label[for="visa"],
+  label[for="przelew_bankowy"],
+  #nav,
+  ul#nav li,
+  ul#nav li:hover,
+  ul#nav li a,
+  ul#nav li li a,
+  ul#nav li li:hover,
+  ul#nav li ul,
+  ul#nav li:hover ul {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 720px) { 
+  fieldset {
+    width: 100%; 
+    max-width: 100%; 
+    margin: 0; 
+    padding: 0;
+  }
+
+  textarea {
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box; 
+  }
+}

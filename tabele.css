@@ -1,0 +1,96 @@
+table {
+  background-color: #ca1643;
+  text-align: center;
+  width: 94%;
+  margin: 2%;
+  border: 1pt solid navy;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+caption {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: #421b23;
+  color: #ffffff;
+  font-size: 110%;
+  padding: 5pt;
+}
+
+td,
+th {
+  border: 1pt solid navy;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+tfoot a {
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background: #ffc3d8;
+}
+
+
+@media screen and (max-width: 720px) {
+  nav a {
+    width: 48%;
+    padding: 10px 0;
+    font-size: 140%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  body {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  nav a {
+    width: 100%;
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 720px) {
+  nav a {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 140%;
+  }
+  
+  ul#nav li {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 3px;
+  }
+  table{
+  text-align: center;
+  width: 94%;
+  margin: 2%;
+  max-width: 100%;
+  }
+}
+
+
+
+

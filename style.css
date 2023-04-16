@@ -1,0 +1,214 @@
+#kontener {
+background:#ffffff;
+width: 90%;
+margin: 0 auto;
+}
+h1, h2, h3 {
+margin:0;
+padding:0;
+}
+
+body{
+background:#d2a2ac;
+color:#664954;
+}
+h1, footer{
+background:#f46696;
+color: #664954;
+text-align:center;
+}
+
+#menu,header {
+width:100%;
+margin:0;
+padding:0;
+background:#d65082;
+border-bottom:2px solid #d65082;
+text-align: center;
+}
+#nav {
+display: inline-block;
+overflow: hidden;
+font-family: calibri, tahoma;
+margin: 0 auto;
+}
+ul#nav li {
+border: 1px solid #d65082;
+list-style-type: none;
+display: inline-block;
+background: #d65082;
+margin-left: 3px;
+}
+ul#nav li:hover {
+border: 1px solid #d65082;
+list-style-type: none;
+display: inline-block;
+background: #f0f0f0;
+margin-left: 3px;
+}
+ul#nav li a {
+display : block;
+padding : 4pt;
+text-decoration : none;
+}
+ul#nav li li a {
+width: 160px;
+}
+ul#nav li li:hover {
+background: #d65082;
+}
+ul#nav li ul {
+overflow: hidden;
+display: none;
+}
+ul#nav li:hover ul {
+position: absolute;
+background: #d65082;
+padding: 0;
+display: block;
+width: 177px;
+}
+
+#tresc {
+  background: #ffc3d8;
+  margin: 0 auto;
+  width: 70%;
+  padding: 1%;
+  float: left; 
+  border-radius: 10px;
+}
+
+aside {
+  width: 25%; 
+  padding: 1%;
+  float: right; 
+}
+
+.box {
+  background: #61283c;
+  color: #f8a3b8;
+  padding: 5px;
+  margin: 5px;
+  font-size: 90%;
+  clear: both; 
+  border-radius: 10px;
+}
+
+.box a {
+  color: #a54458;
+  background: #61283c;
+  border-radius: 10px;
+}
+
+footer,header,#menu{
+	clear:both;
+width:100%;
+padding:5px 0 5px 0;
+text-align:center;}
+.box {
+background:#61283c;
+color:#f8a3b8;
+padding:5px;
+margin:5px;
+font-size:90%;
+}
+.box a{
+color:#a54458;
+background:#61283c;
+}
+
+@media screen and (max-width: 720px) {
+  nav a {
+    width: 48%;
+    padding: 10px 0;
+    font-size: 140%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  body {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  nav a {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 720px) {
+  nav a {
+    width: 48%;
+    padding: 10px 0;
+    font-size: 140%;
+  }
+}
+
+@media screen and (orientation:portrait) and (max-width: 720px) {
+  table {
+    display: block;
+    width: 100%;
+  }
+  th,
+  td,
+  caption {
+	  display: block;
+   
+    width:99%;
+  }
+  ul#nav li {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 3px;
+  }
+}
+@media screen and (max-width: 720px) {
+	#kontener{
+		width:100%;
+	}
+	#tresc{width:95%;
+	margin-left:5px;
+	margin-right:0;}
+	
+  
+  aside {
+    width: 100%; 
+	margin-left: 5px;
+  }
+  #nav,
+  ul#nav li,
+  ul#nav li:hover,
+  ul#nav li a,
+  ul#nav li li a,
+  ul#nav li li:hover,
+  ul#nav li ul,
+  ul#nav li:hover ul {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  nav a {
+    width: 100%; 
+    padding: 10px 0;
+    font-size: 140%;
+  }
+  .box{
+	 width:96%;  }
+}
+
